@@ -1,9 +1,9 @@
 FROM ubuntu:22.04
 
-# Install basic dependencies
-RUN apt-get update && apt-get install -y curl python3 python3-pip ffmpeg
+# Install base dependencies
+RUN apt-get update && apt-get install -y curl git python3 python3-pip ffmpeg
 
-# Install NodeJS 18 (recommended for PyTgCalls)
+# Install NodeJS 18 (required for PyTgCalls)
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
     && apt-get install -y nodejs
 
