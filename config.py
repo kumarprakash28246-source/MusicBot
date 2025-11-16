@@ -36,10 +36,19 @@ API_KEY = getenv("API_KEY", '30DxNexGenBots5b0475') # youtube song api key, gene
 
 from os import getenv
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/SourabhProfessor/MusicBot")
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
-GIT_TOKEN = getenv("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")
-)  # Fill this variable if your upstream repository is private
+UPSTREAM_REPO = getenv(
+    "UPSTREAM_REPO",
+    "https://github.com/SourabhProfessor/MusicBot"
+)
+
+UPSTREAM_BRANCH = getenv(
+    "UPSTREAM_BRANCH",
+    "main"
+)
+
+# DO NOT PUT TOKEN HERE
+# Token sirf Heroku Config Vars me jayega
+GIT_TOKEN = getenv("GIT_TOKEN")  # Leave this like this only
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/LearnToProfessor")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DiscussToProfessor")
@@ -119,6 +128,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
