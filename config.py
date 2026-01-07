@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", 33751409))
-API_HASH = getenv("API_HASH", "232b6ce65e539b5b20a8d55e23bbaf95")
+API_ID = int(getenv("API_ID", 39331374))
+API_HASH = getenv("API_HASH", "e75ee6a8727111eb718e4c77195af9eb")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 360))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"", -1003522324321))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 8049860433))
+OWNER_ID = int(getenv("OWNER_ID", 8501776264))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -36,15 +36,15 @@ API_KEY = getenv("API_KEY", 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) # youtube son
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/kumarprakash28246-source/MusicBot",
+    "https://github.com/yashsahu7468-rgb/MusicBot.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/misstannu1")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/misstannu1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/prakriti_music")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/prakriti_music")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
