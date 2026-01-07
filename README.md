@@ -96,7 +96,7 @@ API_KEY=your-api-key-here
 ---
 
 ## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/SourabhProfessor/MusicBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/kumarprakash28246-source/MusicBot)
 
 ---
 
