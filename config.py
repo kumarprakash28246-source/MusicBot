@@ -36,7 +36,7 @@ API_KEY = getenv("API_KEY", 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) # youtube son
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/yashsahu7468-rgb/MusicBot.git",
+    "https://github.com/kumarprakash28246-source/MusicBot.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
