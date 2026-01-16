@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", 39331374))
-API_HASH = getenv("API_HASH", "e75ee6a8727111eb718e4c77195af9eb")
+API_ID = int(getenv("API_ID", 30208092))
+API_HASH = getenv("API_HASH", "c48f0f5f84ae7d35ae8b5936c1c51003")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 360))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1003522324321))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1003693317577))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 8501776264))
+OWNER_ID = int(getenv("OWNER_ID", 6225033257))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/prakriti_music")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/prakriti_music")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MRPRAKASHYTCHAT")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/MRPRAKASHYTCHAT")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
